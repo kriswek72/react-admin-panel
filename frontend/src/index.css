@@ -1,0 +1,21 @@
+/* src/index.css */
+
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --sidebar-bg: #efefef;
+}
+
+[data-theme='dark'] {
+  --bg: #1f1f1f;
+  --text: #f9f9f9;
+  --sidebar-bg: #2c2c2c;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
